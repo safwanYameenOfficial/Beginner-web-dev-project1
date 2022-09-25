@@ -1,0 +1,95 @@
+@import url('http://fonts.cdnfonts.com/css/cursed-timer-ulil');
+html{
+    margin: 0;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    height: 100vh;
+    background-color: #1B244A;
+    display: flex;
+    align-items: center;
+}
+
+h1 {
+    margin: 0;
+}
+.container {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1B244A;
+    text-align: center;
+    max-width: 768px;
+}
+.scores {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    background-color: black;
+    padding: 0.5em 0.7em;
+    font-size: 3rem;
+    border-radius: 5px;
+}
+
+.btn {
+    color: #9AABD8;
+    border: 1px solid #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 1.25rem;
+    padding: 0.5em 1.5em;
+    margin: 1em 0;
+    border-radius: 5px;
+    transition-property: background, color ;
+    transition-duration: 250ms;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #9AABD8;
+    color: #1B244A;
+    cursor: pointer;
+}
+
+.reset-btn {
+    width: 60%;
+    margin: auto;
+}
+
+@media (min-width: 320px) {
+    html {
+        font-size: 18px;
+    }
+    body {
+        background-color: #171f41;
+    }
+    .container {
+        width: 80%;
+        border-radius: 5px;
+        border: 1px solid #9AABD8
+    }
+}
+@media (min-width: 576px) {
+    html {
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) {
+    html {
+        font-size: 22px;
+    }
+}
